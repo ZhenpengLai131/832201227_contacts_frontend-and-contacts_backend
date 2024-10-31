@@ -13,7 +13,7 @@ Express is used as the framework in Node.js to handle server operations, leverag
 
 ### Database Interaction
 
-The `mysql2` library facilitates direct interaction with a MySQL database. With raw SQL queries, the approach remains straightforward and efficient, though care must be taken to prevent SQL injection attacks for security purposes.
+The code uses the `mysql2` library to interact directly with MySQL, employing raw SQL queries. This approach is straightforward and efficient, and with parameterized queries, it helps prevent SQL injection, enhancing security.
 
 ### Error Handling and Data Validation
 
