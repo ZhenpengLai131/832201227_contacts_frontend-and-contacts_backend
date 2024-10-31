@@ -1,4 +1,4 @@
-### The backend code follows the Alibaba JavaScript Style Guide.
+### The backend code refers to the Alibaba JavaScript Style Guide.
 ### Modular Structure
 
 The code follows a modular structure by separating routes (`contacts.js`), controllers (`contactsController.js`), and database configuration (`db.js`) into distinct modules. This modular design enhances code readability and maintainability, aligning well with the principle of “separation of concerns.”
